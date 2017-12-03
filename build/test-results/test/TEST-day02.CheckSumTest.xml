@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="day02.CheckSumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-03T16:59:46" hostname="Lifebook" time="0.057">
-  <properties/>
-  <testcase name="checksum" classname="day02.CheckSumTest" time="0.057"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

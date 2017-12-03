@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75afbd0c-9ecd-4b98-ad3f-064c7de5859c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/Answer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/day02/CheckSum.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/kotlin/day02/CheckSumTest.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/day03/SpiralMemory.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/kotlin/day03/SpiralMemoryTest.kt" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/MainKt.class" afterPath="$PROJECT_DIR$/build/classes/main/MainKt.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/day1/CaptchaDigitSum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/test/day1/CaptchaDigitSumTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/day01/CaptchaDigitSum.class" afterPath="$PROJECT_DIR$/build/classes/main/day01/CaptchaDigitSum.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/day02/CheckSum.class" afterPath="$PROJECT_DIR$/build/classes/main/day02/CheckSum.class" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-classes/main/MainKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/MainKt.class" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin-classes/main/day1/CaptchaDigitSum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin-classes/test/day1/CaptchaDigitSumTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-classes/main/day01/CaptchaDigitSum.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/day01/CaptchaDigitSum.class" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-classes/main/day02/CheckSum.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/day02/CheckSum.class" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" />
@@ -130,16 +129,13 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/sync/kotlin-files-in-java-timestamps.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/sync/kotlin-files-in-java-timestamps.bin" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/day1.CaptchaDigitSumTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/day02.CheckSumTest.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/day1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-day1.CaptchaDigitSumTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/day02.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-day02.CheckSumTest.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/MainKt.class" afterPath="$PROJECT_DIR$/out/production/classes/MainKt.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/day1/CaptchaDigitSum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/CaptchaDigitSum.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/day01/CaptchaDigitSum.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day1/CaptchaDigitSumTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/day01/CaptchaDigitSumTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -159,20 +155,45 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#76#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiralMemory.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/day03/SpiralMemory.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiralMemoryTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/day03/SpiralMemoryTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +201,8 @@
       <file leaf-file-name="CaptchaDigitSum.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/day01/CaptchaDigitSum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -190,7 +211,7 @@
       <file leaf-file-name="CheckSum.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/day02/CheckSum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="136">
               <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
@@ -200,18 +221,8 @@
       <file leaf-file-name="CheckSumTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/day02/CheckSumTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -222,9 +233,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -577,6 +588,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/day02/CheckSum.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/day01/CaptchaDigitSum.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/main.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/day03/SpiralMemoryTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/day03/SpiralMemory.kt" />
       </list>
     </option>
   </component>
@@ -681,6 +694,22 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="day01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AdventOfCode2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -704,6 +733,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day03" />
       <recent name="day02" />
       <recent name="day1" />
     </key>
@@ -785,12 +815,12 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="CaptchaDigitSumTest.sum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;day1.CaptchaDigitSumTest.sum&quot;" />
+        <option name="scriptParameters" value="--tests day02.CheckSumTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -804,12 +834,12 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="CheckSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpiralMemoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests day02.CheckSumTest" />
+        <option name="scriptParameters" value="--tests day03.SpiralMemoryTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -897,18 +927,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.MainKt" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.sum" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.return 9 when input is 91212129" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.CheckSumTest" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.return 9 when input is 91212129" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.CheckSumTest" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.SpiralMemoryTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Kotlin.MainKt" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.CheckSumTest" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.return 9 when input is 91212129" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.sum" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.SpiralMemoryTest" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.CheckSumTest" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.CaptchaDigitSumTest.return 9 when input is 91212129" />
       </list>
     </recent_temporary>
   </component>
@@ -926,27 +956,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaptchaDigitSumTest - 2017.12.03 at 17h 01m 03s.xml">
-      <configuration name="CaptchaDigitSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CaptchaDigitSumTest - 2017.12.03 at 17h 01m 17s.xml">
-      <configuration name="CaptchaDigitSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CaptchaDigitSumTest - 2017.12.03 at 17h 02m 59s.xml">
-      <configuration name="CaptchaDigitSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CaptchaDigitSumTest - 2017.12.03 at 17h 28m 40s.xml">
-      <configuration name="CaptchaDigitSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CaptchaDigitSumTest_return_9_when_input_is_91212129 - 2017.12.03 at 17h 00m 18s.xml">
-      <configuration name="CaptchaDigitSumTest.return 9 when input is 91212129" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CheckSumTest - 2017.12.03 at 17h 39m 26s.xml">
-      <configuration name="CheckSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CheckSumTest - 2017.12.03 at 17h 42m 46s.xml">
-      <configuration name="CheckSumTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="CheckSumTest - 2017.12.03 at 17h 48m 25s.xml">
       <configuration name="CheckSumTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -955,6 +964,27 @@
     </history-entry>
     <history-entry file="CheckSumTest - 2017.12.03 at 17h 59m 46s.xml">
       <configuration name="CheckSumTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 19h 10m 17s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 20h 15m 11s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 21h 08m 26s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 21h 09m 41s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 21h 11m 20s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 21h 11m 32s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpiralMemoryTest - 2017.12.03 at 21h 11m 47s.xml">
+      <configuration name="SpiralMemoryTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -992,6 +1022,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1000,7 +1031,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1018,7 +1048,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,30 +1078,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/day1/CaptchaDigitSumTest.kt" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/day01/CaptchaDigitSumTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/day02/CheckSumTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Answer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1080,28 +1086,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/day02/CheckSum.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/day02/CheckSumTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/day01/CaptchaDigitSumTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="107" column="15" lean-forward="false" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/day03/SpiralMemoryTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/day01/CaptchaDigitSum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/day02/CheckSum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/day03/SpiralMemory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
