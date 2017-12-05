@@ -29,6 +29,10 @@ import java.lang.Math.abs
 class SpiralMemory : Answer {
     enum class Direction { Left, Right, Up, Down }
 
+    val neighbourOffsets = listOf(Pair(-1, 1), Pair(0, 1), Pair(1, 1),
+            Pair(-1, 0), Pair(1, 0),
+            Pair(-1, -1), Pair(0, -1), Pair(1, -1))
+
     val moveOrder = mapOf(Direction.Left to Direction.Down,
             Direction.Down to Direction.Right,
             Direction.Right to Direction.Up,
@@ -37,8 +41,14 @@ class SpiralMemory : Answer {
     override fun showAnswer(): String {
         val steps = 347991
         val (x, y) = move(Pair(0, 0), Direction.Right, 1, 0, steps - 1)
+        val value = moveSum(Pair(0, 0),
+                1,
+                Direction.Right,
+                1, 0,
+                mutableMapOf(),
+                steps - 1)
         val dist = abs(x) + abs(y)
-        return "$steps -> ($x, $y) -> $dist"
+        return "$steps -> ($x, $y) -> $dist -> $value"
     }
 
     fun coordinate(num: Int): Pair<Int, Int> {
@@ -73,6 +83,36 @@ class SpiralMemory : Answer {
         val newDirection = moveOrder[d]!!
         val extra = if (isHorizontal(newDirection)) 1 else 0
         return move(newCoord, newDirection, branchLength + extra, 0, remainingSteps - 1)
+    }
+
+    tailrec private fun moveSum(coord: Pair<Int, Int>,
+                                currentValue: Int,
+                                d: Direction,
+                                branchLength: Int,
+                                posOnBranch: Int,
+                                disclosedMap: MutableMap<Pair<Int, Int>, Int>,
+                                maxValue: Int): Int {
+        if (currentValue > maxValue) {
+            return currentValue
+        }
+        disclosedMap.put(coord, currentValue)
+        val newPos = posOnBranch + 1
+        val shift = displacementVector(d)
+        val newCoord = Pair(coord.first + shift.first, coord.second + shift.second)
+        val newValue = calculateSumOfNeighbours(newCoord, disclosedMap)
+        if (newPos < branchLength) {
+            return moveSum(newCoord, newValue, d, branchLength, newPos, disclosedMap, maxValue)
+        }
+        val newDirection = moveOrder[d]!!
+        val extra = if (isHorizontal(newDirection)) 1 else 0
+        return moveSum(newCoord, newValue, newDirection, branchLength + extra, 0, disclosedMap, maxValue)
+    }
+
+    private fun calculateSumOfNeighbours(coord: Pair<Int, Int>, map: Map<Pair<Int, Int>, Int>): Int {
+        val (x, y) = coord
+        return neighbourOffsets.map { Pair(it.first + x, it.second + y) }
+                .filter { map.containsKey(it) }
+                .sumBy { it -> map.get(it) ?: 0 }
     }
 
 

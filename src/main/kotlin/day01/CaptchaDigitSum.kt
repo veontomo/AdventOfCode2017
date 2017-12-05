@@ -35,7 +35,6 @@ class CaptchaDigitSum : Answer {
         val digits = input
                 .toCharArray()
                 .map { it.toString().toInt() }
-        println(digits)
         val size = digits.size
         return digits.foldIndexed(0, { i, acc, c -> acc + if (c == digits[(i + size/2) % size]) c else 0 })
     }
