@@ -41,6 +41,11 @@ class SpiralMemory : Answer {
         return "$steps -> ($x, $y) -> $dist"
     }
 
+    fun coordinate(num: Int): Pair<Int, Int> {
+        return move(Pair(0, 0), Direction.Right, 1, 0, num - 1)
+
+    }
+
     /**
      * Return a Euclidean coordinate after given number of steps along the spiral.
      * The center of the spiral corresponds to the origin (0, 0).
@@ -69,6 +74,7 @@ class SpiralMemory : Answer {
         val extra = if (isHorizontal(newDirection)) 1 else 0
         return move(newCoord, newDirection, branchLength + extra, 0, remainingSteps - 1)
     }
+
 
     private fun isHorizontal(d: Direction): Boolean {
         return d == Direction.Right || d == Direction.Left

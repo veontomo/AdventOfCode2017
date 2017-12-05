@@ -109,4 +109,37 @@ class CaptchaDigitSumTest {
         val c = CaptchaDigitSum()
         assertEquals(9, c.sum("91212129"))
     }
+
+    /**
+     * Test suit for halfway around circular list
+     */
+    @Test
+    fun `run 1212 produces 6`() {
+        val c = CaptchaDigitSum()
+        assertEquals(6, c.sumHalfway("1212"))
+    }
+
+    @Test
+    fun `1221 produces 0`() {
+        val c = CaptchaDigitSum()
+        assertEquals(0, c.sumHalfway("1221"))
+    }
+
+    @Test
+    fun `123425 produces 4`() {
+        val c = CaptchaDigitSum()
+        assertEquals(4, c.sumHalfway("123425"))
+    }
+
+    @Test
+    fun `123123 produces 12`() {
+        val c = CaptchaDigitSum()
+        assertEquals(12, c.sumHalfway("123123"))
+    }
+
+    @Test
+    fun `12131415 produces 4`() {
+        val c = CaptchaDigitSum()
+        assertEquals(4, c.sumHalfway("12131415"))
+    }
 }

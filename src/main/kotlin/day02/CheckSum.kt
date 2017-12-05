@@ -1,4 +1,5 @@
 package day02
+
 import Answer
 
 /**
@@ -22,7 +23,7 @@ class CheckSum : Answer {
                 "112	2429	1987	2129	2557	1827	477	100	78	634	352	1637	588	77	1624	2500",
                 "514	218	209	185	197	137	393	555	588	569	710	537	48	309	519	138",
                 "1567	3246	4194	151	3112	903	1575	134	150	4184	3718	4077	180	4307	4097	1705")
-        return checksum(input).toString()
+        return checksum(input).toString() + " -> " + checksumDivisible(input).toString()
     }
 
     /**
@@ -34,11 +35,30 @@ class CheckSum : Answer {
         return lines.fold(0, { acc, line -> acc + checksum(line) })
     }
 
+    fun checksumDivisible(lines: Array<String>): Int {
+        return lines.fold(0, { acc, line -> acc + divisible(line) })
+    }
+
     private fun checksum(line: String): Int {
         val numbers = line.split(Regex("\\s+")).filter { it.isNotEmpty() }.map { it.toInt(10) }
         val max = numbers.max() ?: 0
         val min = numbers.min() ?: 0
         return max - min
+    }
 
+    fun divisible(line: String): Int {
+        val numbers = line.split(Regex("\\s+")).filter { it.isNotEmpty() }.map { it.toInt(10) }
+        val s = numbers.size
+        for (i in 0 until s - 1) {
+            for (k in i + 1 until s) {
+                val isBigger = numbers[i] >= numbers[k]
+                val greater = if (isBigger) numbers[i] else numbers[k]
+                val smaller = if (isBigger) numbers[k] else numbers[i]
+                if (greater % smaller == 0) {
+                    return greater / smaller
+                }
+            }
+        }
+        return 0
     }
 }
