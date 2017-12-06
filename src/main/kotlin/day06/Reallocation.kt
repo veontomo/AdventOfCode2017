@@ -5,13 +5,15 @@ import Answer
 class Reallocation : Answer {
     override fun showAnswer(): String {
         val input = arrayOf(10, 3, 15, 10, 5, 15, 5, 15, 9, 2, 5, 8, 5, 2, 3, 6).toIntArray()
-        return iterate(setOf(), input, 0).toString()
+        val pair = iterate(arrayOf(), input, 0)
+        return "iterations: ${pair.first}, cycles: ${pair.second}"
     }
 
-    tailrec fun iterate(known: Set<String>, current: IntArray, counter: Int): Int {
-        val hash = current.joinToString{it.toString()}
-        if (known.contains(hash)) {
-            return counter
+    tailrec fun iterate(known: Array<String>, current: IntArray, counter: Int): Pair<Int, Int> {
+        val hash = current.joinToString { it.toString() }
+        val pos = known.indexOf(hash)
+        if (pos != -1) {
+            return Pair(counter, known.size - pos)
         }
         val newKnown = known + hash
         val newValue = distribute(current)
