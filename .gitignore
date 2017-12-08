@@ -2,4 +2,4 @@
 build/
 out/
 .idea/
-main/resources/*.txt
+src/main/resources/*.txt
