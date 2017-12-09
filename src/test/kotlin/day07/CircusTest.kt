@@ -35,7 +35,7 @@ class CircusTest {
     fun splitBranchWithWeightAndThreeChildren() {
         val c = Circus()
         val result = c.split("fgh (32) -> abc, qqq, www")
-        assertEquals("xyz", result.first)
+        assertEquals("", result.first)
         assertEquals(3, result.second.size)
         assertTrue(result.second.contains("abc"))
         assertTrue(result.second.contains("qqq"))

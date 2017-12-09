@@ -6,6 +6,7 @@ import day05.Trampoline
 import day06.Reallocation
 import day07.Circus
 import day08.Register
+import day09.Stream
 
 /**
  * This is a solution to the advent of code 2017 problems.
@@ -20,6 +21,7 @@ fun main(v: Array<String>) {
     // println(Reallocation().showAnswer())
     println(Circus().showAnswer())
     println(Register().showAnswer())
+    println(Stream().showAnswer())
 
 
 }

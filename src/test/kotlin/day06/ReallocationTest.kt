@@ -82,7 +82,7 @@ class ReallocationTest {
     @Test
     fun `loop 0 2 7 0 in five iterations`() {
         val c = Reallocation()
-        val result = c.iterate(setOf(), arrayOf(0, 2, 7, 0).toIntArray(), 0)
+        val result = c.iterate(arrayOf(), arrayOf(0, 2, 7, 0).toIntArray(), 0)
         assertEquals(5, result)
     }
 
