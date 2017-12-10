@@ -7,18 +7,22 @@ class Hash : Answer {
         val input = intArrayOf(46, 41, 212, 83, 1, 255, 157, 65, 139, 52, 39, 254, 2, 86, 0, 204)
         val result = iterate(IntArray(256, { it }), input)
         val answer = result[0] * result[1]
-        return "0: ${result[0]}, 1: ${result[1]}, answer: $answer"
+        val answer2 = denseHash("46,41,212,83,1,255,157,65,139,52,39,254,2,86,0,204")
+        return "0: ${result[0]}, 1: ${result[1]}, answer: $answer, hash: $answer2"
     }
 
-    fun iterate(input: IntArray, blockSizes: IntArray): IntArray {
+    fun iterate(input: IntArray, blockSizes: IntArray, iterations: Int = 1): IntArray {
         var currentIndex = 0
         var offset = 0
         var arr = input
-        for (blockSize in blockSizes) {
-            arr = reverseBlock(arr, currentIndex, blockSize)
-            currentIndex = (currentIndex + blockSize + offset) % input.size
-            offset++
-        }
+        val s = input.size
+        repeat(iterations, {
+            for (blockSize in blockSizes) {
+                arr = reverseBlock(arr, currentIndex, blockSize)
+                currentIndex = (currentIndex + blockSize + offset) % s
+                offset = (offset + 1) % s
+            }
+        })
         return arr
     }
 
@@ -41,5 +45,33 @@ class Hash : Answer {
                     + block
                     + target.slice((blockStart + blockLength)..(target.size - 1))).toIntArray()
         }
+    }
+
+    fun denseHash(blockSizes: String): String {
+        println("hash: blocks $blockSizes")
+        val lengths = blockSizes.toCharArray().map { it.toInt() }.toIntArray() + intArrayOf(17, 31, 73, 47, 23)
+        val hashTmp = iterate(IntArray(256, { it }), lengths, 64)
+        val blocks = (0..15).map { it -> hashTmp.slice((it * 16)..(it * 16 + 15)) }
+                .map {
+                    xor(it)
+                }
+                .map {
+                    it.toString(16).padStart(2, '0')
+
+                }
+
+
+        return blocks.joinToString(separator = "", transform = { it.toString() })
+    }
+
+    fun xor(input: List<Int>): Int {
+        val s = input.size
+        var result = input[0].xor(input[1])
+        assert(result > 0, { "xor is negative" })
+        for (i in 2..s - 1) {
+            result = result.xor(input[i])
+            assert(result >= 0, { "xor produces negative at step $i, number ${input[i]}: " + input.joinToString { it.toString() } + " -> " + result.toString() })
+        }
+        return result
     }
 }
