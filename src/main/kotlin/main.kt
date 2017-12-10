@@ -7,6 +7,7 @@ import day06.Reallocation
 import day07.Circus
 import day08.Register
 import day09.Stream
+import day10.Hash
 
 /**
  * This is a solution to the advent of code 2017 problems.
@@ -22,6 +23,7 @@ fun main(v: Array<String>) {
     println(Circus().showAnswer())
     println(Register().showAnswer())
     println(Stream().showAnswer())
+    println(Hash().showAnswer())
 
 
 }
