@@ -41,26 +41,26 @@ class HashTest {
     @Test
     fun hashEmptyString() {
         val c = Hash()
-        assertEquals("a2582a3a0e66e6e86e3812dcb672a272", c.hash(""))
+        assertEquals("a2582a3a0e66e6e86e3812dcb672a272", c.denseHash(""))
 
     }
 
     @Test
     fun hashAoC() {
         val c = Hash()
-        assertEquals("33efeb34ea91902bb2f59c9920caa6cd", c.hash("AoC 2017"))
+        assertEquals("33efeb34ea91902bb2f59c9920caa6cd", c.denseHash("AoC 2017"))
     }
 
     @Test
     fun hash123() {
         val c = Hash()
-        assertEquals("3efbe78a8d82f29979031a4aa0b16a9d", c.hash("1,2,3"))
+        assertEquals("3efbe78a8d82f29979031a4aa0b16a9d", c.denseHash("1,2,3"))
     }
 
     @Test
     fun hash124() {
         val c = Hash()
-        assertEquals("63960835bcdc130f0b66d7ff4f6a5a8e", c.hash("1,2,4"))
+        assertEquals("63960835bcdc130f0b66d7ff4f6a5a8e", c.denseHash("1,2,4"))
     }
 
     @Test
@@ -72,19 +72,19 @@ class HashTest {
     @Test
     fun hashrimbuod() {
         val c = Hash()
-        assertEquals("044392e3fec2fac3209c2f5c22717cd3", c.hash("rimbuod"))
+        assertEquals("044392e3fec2fac3209c2f5c22717cd3", c.denseHash("rimbuod"))
     }
 
     @Test
     fun hashRimbuod() {
         val c = Hash()
-        assertEquals("46093e85204d0b5f2372895c515cbbff", c.hash("Rimbuod"))
+        assertEquals("46093e85204d0b5f2372895c515cbbff", c.denseHash("Rimbuod"))
     }
 
     @Test
     fun hashRIMBUOD() {
         val c = Hash()
-        assertEquals("8279c6a413685a576570b14906c73bf8", c.hash("RIMBUOD"))
+        assertEquals("8279c6a413685a576570b14906c73bf8", c.denseHash("RIMBUOD"))
     }
 }
 
