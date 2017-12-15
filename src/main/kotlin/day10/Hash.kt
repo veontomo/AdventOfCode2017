@@ -48,7 +48,6 @@ class Hash : Answer {
     }
 
     fun denseHash(blockSizes: String): String {
-        println("hash: blocks $blockSizes")
         val lengths = blockSizes.toCharArray().map { it.toInt() }.toIntArray() + intArrayOf(17, 31, 73, 47, 23)
         val hashTmp = iterate(IntArray(256, { it }), lengths, 64)
         val blocks = (0..15).map { it -> hashTmp.slice((it * 16)..(it * 16 + 15)) }
