@@ -12,6 +12,7 @@ import day11.Hex
 import day12.Plumber
 import day13.Firewall
 import day14.Defragment
+import day15.Duel
 
 /**
  * This is a solution to the advent of code 2017 problems.
@@ -31,5 +32,6 @@ fun main(v: Array<String>) {
     println(Hex().showAnswer())
 //    println(Plumber().showAnswer())
 //    println(Firewall().showAnswer())
-    println(Defragment().showAnswer())
+//    println(Defragment().showAnswer())
+    println(Duel().showAnswer())
 }
