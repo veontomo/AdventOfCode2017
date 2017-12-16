@@ -13,25 +13,27 @@ import day12.Plumber
 import day13.Firewall
 import day14.Defragment
 import day15.Duel
+import day16.Dance
 
 /**
  * This is a solution to the advent of code 2017 problems.
  * @see http://adventofcode.com/2017
  */
 fun main(v: Array<String>) {
-    println(CaptchaDigitSum().showAnswer())
-    println(CheckSum().showAnswer())
-    println(SpiralMemory().showAnswer())
-    println(Passphrase().showAnswer())
+//    println(CaptchaDigitSum().showAnswer())
+//    println(CheckSum().showAnswer())
+//    println(SpiralMemory().showAnswer())
+//    println(Passphrase().showAnswer())
     //println(Trampoline().showAnswer())
     // println(Reallocation().showAnswer())
     println(Circus().showAnswer())
-    println(Register().showAnswer())
-    println(Stream().showAnswer())
-    println(Hash().showAnswer())
-    println(Hex().showAnswer())
+//    println(Register().showAnswer())
+//    println(Stream().showAnswer())
+//    println(Hash().showAnswer())
+//    println (Hex().showAnswer())
 //    println(Plumber().showAnswer())
 //    println(Firewall().showAnswer())
 //    println(Defragment().showAnswer())
-    println(Duel().showAnswer())
+//    println(Duel().showAnswer())
+//    println(Dance().showAnswer())
 }

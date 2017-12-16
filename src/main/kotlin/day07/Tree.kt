@@ -1,16 +1,13 @@
 package day07
 
-class Tree(val name: String, val weight: Int, val children: Set<String> = setOf()) {
+class Tree(val name: String, val weight: Int, val children: Set<Tree> = setOf()) {
+
+    fun totalWeight(): Int = weight + childWeights()
 
 
-    /**
-     * Return a sub-tree  with given name or null if no such sub-tree exists.
-     */
-    fun find(name: String): Tree? {
-        if (this.name == name) {
-            return this
-        }
-        return null
+    fun childWeights() = children.map { it.totalWeight() }.sum()
+
+    fun getChildByName(name: String): Tree? {
+        return children.first { it.name == name }
     }
-
 }

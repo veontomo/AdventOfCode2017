@@ -35,10 +35,30 @@ class CircusTest {
     fun splitBranchWithWeightAndThreeChildren() {
         val c = Circus()
         val result = c.split("fgh (32) -> abc, qqq, www")
-        assertEquals("", result.first)
+        assertEquals("fgh", result.first)
         assertEquals(3, result.second.size)
         assertTrue(result.second.contains("abc"))
         assertTrue(result.second.contains("qqq"))
         assertTrue(result.second.contains("www"))
+    }
+
+    @Test
+    fun splitToTripleNoChildren() {
+        val c = Circus()
+        assertEquals(Triple("root", 10, setOf<String>()), c.splitToTriple("root (10)"))
+    }
+
+    @Test
+    fun splitToTripleSingleChild() {
+        val c = Circus()
+        assertEquals(Triple("abc", 233, setOf<String>("xyzw")), c.splitToTriple("abc (233) -> xyzw"))
+    }
+
+    @Test
+    fun splitToTripleThreeChildren() {
+        val c = Circus()
+        assertEquals(
+                Triple("vcezyqj", 8443, setOf("luxlkxu", "dpmsnm", "yxfyvw")),
+                c.splitToTriple("vcezyqj (8443) -> luxlkxu, dpmsnm, yxfyvw"))
     }
 }
