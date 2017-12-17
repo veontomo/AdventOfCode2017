@@ -14,6 +14,7 @@ import day13.Firewall
 import day14.Defragment
 import day15.Duel
 import day16.Dance
+import day17.Spinlock
 
 /**
  * This is a solution to the advent of code 2017 problems.
@@ -36,4 +37,5 @@ fun main(v: Array<String>) {
 //    println(Defragment().showAnswer())
 //    println(Duel().showAnswer())
 //    println(Dance().showAnswer())
+    println(Spinlock().showAnswer())
 }

@@ -11,6 +11,7 @@ class Circus : Answer {
         val r = roots(branches.toTypedArray())
         assert(r.size == 1, { "found roots: ${r.joinToString { it }}" })
         val tree = createFullTree(r.first(), input)
+
         tree.children.forEach { it ->
             println("${it.name}: ${it.totalWeight()}")
         }
